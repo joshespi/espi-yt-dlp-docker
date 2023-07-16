@@ -19,7 +19,8 @@ Open your shell configuration file with a text editor (e.g., nano ~/.bashrc).
 Add an alias or function definition to the file. Here are examples of both options:
 
 Alias example:
-```alias yt-dlp="/bin/bash /home/joshe/espi-docker-home-lab/yt-dlp-docker/scrape_yt.sh"```
+```alias yt-dlp="/bin/bash /home/joshe/docker/espi-yt-dlp-docker/scrape_yt.sh"
+```
 
 Replace /path/to/download_youtube.sh with the actual path to your  script.
 
