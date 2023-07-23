@@ -19,7 +19,8 @@ Open your shell configuration file with a text editor (e.g., nano ~/.bashrc).
 Add an alias or function definition to the file. Here are examples of both options:
 
 Alias example:
-```alias yt-dlp="/bin/bash /home/joshe/docker/espi-yt-dlp-docker/scrape_yt.sh"
+```
+alias yt-dlp="/bin/bash /home/joshe/docker/espi-yt-dlp-docker/scrape_yt.sh"
 ```
 
 Replace /path/to/download_youtube.sh with the actual path to your  script.
@@ -28,9 +29,7 @@ Save the changes to the file and exit the text editor.
 
 Reload the shell configuration file to apply the changes:
 ```source ~/.bashrc```
-Now, you can execute the script using the defined alias or function. For example:
-
-```yt-dlp```
+Now, you can execute the script using the defined alias or function. For example:```yt-dlp```
 
 This allows you to run the download_youtube command in your terminal, and it will automatically execute the  script, prompting you for the YouTube link and initiating the download.
 
